@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:white;
+    
+    }
+
+    main{
+        margin-left: 300px;
+    }
+
+    section{
+        margin-top: 40px;
+        margin-left: 80px;
+    }
+    
+.intro-title{
+    font-size: 100px;
+    color: blue;
+    font-style: bold;
+}
+
+.rock-image{
+    width: 200px;
+    border-radius: 5px;
+
+    
+}
+.rock-button{
+    border: none;
+    cursor: pointer;
+
+}
+
+.paper-image{
+    width: 200px;
+    border-radius: 5px;
+    height: 133px;
+
+}
+.paper-button{
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+    
+
+}
+
+.scissors-image{
+    width: 200px;
+    border-radius: 5px;
+    height: 133px;
+
+}
+.scissors-button{
+    border: none;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+
+.r-s-m{
+    margin-top: 100px;
+    margin-left:200px;
+    width:800px;
+    height: 300px;
+    /* background-color: lightblue; */
+}
+
+
+.js-result{
+    margin-left: 80px;
+    font-family: roboto Arial, Helvetica, sans-serif;
+    width: 100px;
+    font-weight: bolder;
+}
+
+.js-moves{
+   
+    font-family: roboto Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-weight: italic;
+    color: red;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+
+.js-score{
+    font-family: roboto Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-weight: bolder;
+    color: black;
+    margin-top: 100px;
+    margin-left: 30px;
+   
+}
+.reset-button{
+    margin-left: 200px;
+    padding: 6px 12px 6px 12px;
+    width: 300px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    cursor: pointer;
+
+}
+
+.reset-button:active{
+    opacity: 0.5
+}
+.reset-button:hover{
+    background-color: rgb(213, 64, 64);
+
+}
